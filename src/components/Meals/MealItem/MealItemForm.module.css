@@ -21,7 +21,7 @@
   @media (max-width: 524px){
     .form{
       display: flex;
-      justify-content: end;
+      justify-content: flex-end;
     }
     .form button {
      font-size: 10px;
