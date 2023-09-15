@@ -16,11 +16,7 @@
     justify-content: center;
     align-items: center;
   }
-.mealsError{
-  text-align: center;
-  color: #3f3f3f;
- 
-}
+
   
   @keyframes meals-appear {
     from {
@@ -35,17 +31,16 @@
   }
   @media (max-width: 750px) {
     .meals {
-      max-width: 60rem;
       width: 70%;
-      margin: 2rem auto;
-      animation: meals-appear 1s ease-out forwards;
     }
+    
+
   }
   @media (max-width: 644px) {
     .meals {
-      max-width: 60rem;
       width: 80%;
-      margin: 2rem auto;
-      animation: meals-appear 1s ease-out forwards;
+    }
+    .loading h3{
+      font-size: medium;
     }
   }

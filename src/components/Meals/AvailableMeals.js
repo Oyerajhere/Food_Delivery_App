@@ -65,7 +65,7 @@ const AvailableMeals = () => {
             <h3>🍔 Loading our delicious offerings...</h3>
           </div>
         ) : httpError ? ( // Conditional rendering based on the httpError state
-          <section className={classes.mealsError}>
+          <section className={classes.loading}>
       <h3>{httpError}</h3>
     </section>
         ) : (
