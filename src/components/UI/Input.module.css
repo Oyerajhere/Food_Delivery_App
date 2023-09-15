@@ -16,3 +16,24 @@
     font: inherit;
     padding-left: 0.5rem;
   }
+  @media (max-width: 524px) {
+    .input{
+      margin-bottom: 0;
+    }
+    .input label {
+      font-weight: bold;
+      margin-right: 0.3rem;
+      font-size: small;
+    }
+    .input input {
+      width: 2rem;
+      height: 1.5rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font: inherit;
+      font-size: 15px;
+      margin-right: 0.5rem;
+
+      
+    }
+  }

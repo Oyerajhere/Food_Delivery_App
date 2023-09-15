@@ -23,9 +23,6 @@
   }
   .control label{
     margin-top: 0.5rem;
-  }
-  
-  .control label {
     font-weight: bold;
     margin-bottom: 0.25rem;
     display: block;
@@ -81,4 +78,10 @@
   .invalid input {
     border-color: #aa0b20;
     background-color: #ffeff1;
+  }
+
+  @media(max-width: 500px){
+    .control label{
+      font-size: 14px;
+    }
   }

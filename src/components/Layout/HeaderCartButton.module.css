@@ -77,3 +77,36 @@
   }
   
 }
+@media (max-width: 612px) {
+  .button {
+    padding: 0.5rem 0.9rem;
+    border-radius: 10px;
+    margin-left: 0.65rem;
+    height: 30px;
+  }
+  .badge {
+   
+    padding: 0.25rem 0.65rem;
+    border-radius: 10px;
+    margin-left: .5rem;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .icon {
+    width: 1.15rem;
+    height: 1.15rem;
+    margin-right: 0.25rem;
+  }
+  .cartText{
+    font-size: small;
+  }
+  .numberOfCartItems{
+    
+    font-size: small;
+  }
+  
+  
+}

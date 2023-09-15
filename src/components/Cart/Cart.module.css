@@ -3,8 +3,10 @@
     margin: 0;
     padding: 0;
     max-height: 14rem;
-    overflow: auto;
+    overflow-y: scroll;
   }
+
+
   
   .total {
     display: flex;
@@ -45,4 +47,9 @@
   .actions .button {
     background-color: #8a2b06;
     color: white;
+  }
+  @media(max-width: 450px){
+    .total{
+      font-size: 1rem;
+    }
   }

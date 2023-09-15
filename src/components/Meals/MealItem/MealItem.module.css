@@ -20,3 +20,31 @@
     color: #ad5502;
     font-size: 1.25rem;
   }
+  @media (max-width: 524px) {
+    .meal {
+      display: flex;
+      flex-direction:column;
+      justify-content: space-between;
+      margin: 0 0 1rem;
+
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #ccc;
+    }
+    
+    .meal h3 {
+      margin: 0 0 0.25rem 0;
+      font-size: medium;
+    }
+    
+    .description {
+      font-style: italic;
+      font-size: small;
+    }
+    
+    .price {
+      margin-top: 0.25rem;
+      font-weight: bold;
+      color: #ad5502;
+      font-size: 1rem;
+    }
+  }
